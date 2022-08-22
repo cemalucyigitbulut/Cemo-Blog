@@ -1,6 +1,6 @@
 # cemal_blog
 
-A new Flutter project for my intership on gigabyte ltd.
+A new Flutter project for my internship on gigabyte ltd.
 
 and hosting for this project with firebase.
 
