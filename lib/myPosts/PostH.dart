@@ -167,7 +167,7 @@ class _MobileViewPostHState extends State<MobileViewPostH> with TickerProviderSt
     screenWidth=MediaQuery.of(context).size.width;
     return Container(
         width: screenWidth,
-        color: Colors.grey,
+        color: Colors.black,
         child:Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -361,4 +361,3 @@ class _PostHState extends State<PostH> with TickerProviderStateMixin {
     );
   }
 }
-

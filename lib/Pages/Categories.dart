@@ -64,7 +64,7 @@ class _CategoriesState extends State<Categories> with TickerProviderStateMixin {
                             Navigator.pushReplacementNamed(context,"/postf");
                           }),
                         ],)),
-                      const Flexible(child: Text("Animation Movies",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30,fontFamily: "SilkScreen",color:Colors.white),),),
+                      const Flexible(child: Text("Animation Movies",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30,fontFamily: "Silkscreen",color:Colors.white),),),
                       Flexible(child: Column(
                         children: [
                           TextButton(child:const Text("Why 'Better Call Saul' Was Unique",style: TextStyle(fontFamily:"DynaPuff",color:Colors.white),),onPressed: (){
@@ -80,7 +80,7 @@ class _CategoriesState extends State<Categories> with TickerProviderStateMixin {
                             Navigator.pushReplacementNamed(context,"/posth");
                           }),
                         ],)),
-                      const Flexible(child: Text("Music",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30,fontFamily: "SilkScreen",color:Colors.white),),),
+                      const Flexible(child: Text("Music",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30,fontFamily: "Silkscreen",color:Colors.white),),),
                       Flexible(child: Column(
                         children: [
                           TextButton(child:const Text("New Music Sucks or It's Society",style: TextStyle(fontFamily:"DynaPuff",color:Colors.white),),onPressed: (){
@@ -156,7 +156,7 @@ class _CategoriesState extends State<Categories> with TickerProviderStateMixin {
   Widget mobileView(){
     return Container(
         width: screenWidth,
-        color: Colors.grey,
+        color: Colors.black,
         child:Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -202,4 +202,3 @@ class _CategoriesState extends State<Categories> with TickerProviderStateMixin {
     );
   }
 }
-

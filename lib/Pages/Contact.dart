@@ -316,7 +316,7 @@ class _MobileViewContactState extends State<MobileViewContact> with TickerProvid
     screenWidth=MediaQuery.of(context).size.width;
     return Container(
         width: screenWidth,
-        color: Colors.grey,
+        color: Colors.black,
         child:Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -499,4 +499,3 @@ class _ContactState extends State<Contact> with TickerProviderStateMixin {
     );
   }
 }
-

@@ -21,7 +21,7 @@ class _NavigationState extends State<Navigation> {
     Color color = Colors.white;
 
     Widget buttonSelection = Container(
-        color:Colors.grey,
+        color:Colors.black,
         padding:const EdgeInsets.only(left:20.0,right: 20.0) ,
         height:150.0 ,
         child:Row(
@@ -58,7 +58,7 @@ class _NavigationState extends State<Navigation> {
     return Scaffold(
       // endDrawer: drawer(),
       // key:scaffoldKey,
-      backgroundColor: Colors.grey,
+      backgroundColor: Colors.black,
       body: Column(
         children: [
           LayoutBuilder(builder: (context,constrains){
@@ -99,4 +99,3 @@ class _NavigationState extends State<Navigation> {
   }
 
 }
-

@@ -110,7 +110,7 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
 
     return Container(
         width: screenWidth,
-        color: Colors.grey,
+        color: Colors.black,
         child:Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           crossAxisAlignment: CrossAxisAlignment.center,

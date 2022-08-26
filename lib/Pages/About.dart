@@ -130,7 +130,7 @@ class _MobileViewAboutState extends State<MobileViewAbout> with TickerProviderSt
     screenWidth=MediaQuery.of(context).size.width;
     return Container(
         width: screenWidth,
-        color: Colors.grey,
+        color: Colors.black,
         child:Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -259,4 +259,3 @@ class _AboutState extends State<About> with TickerProviderStateMixin {
     );
   }
 }
-
