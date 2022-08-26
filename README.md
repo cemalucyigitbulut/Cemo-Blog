@@ -1,6 +1,13 @@
 # cemal_blog
 
-A new Flutter project.
+A new Flutter project for my internship on gigabyte ltd.
+
+and hosting for this project with firebase.
+
+https://cemo-blog.web.app/#/home
+
+
+
 
 ## Getting Started
 
