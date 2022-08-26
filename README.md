@@ -4,7 +4,7 @@ A new Flutter project for my internship on gigabyte ltd.
 
 and hosting for this project with firebase.
 
-update:i changed  my theme according to e-mail (Theme Similarities)
+update: i changed  my theme according to e-mail (Theme Similarities)
 
 https://cemo-blog.web.app/#/home
 
